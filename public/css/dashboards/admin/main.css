@@ -1,0 +1,165 @@
+.no_info .dataTables_info {
+  display: none !important;
+}
+
+.statics-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: end;
+}
+
+.one-static-wrapper {
+  box-shadow: 1px 1px 3px grey;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.statics-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 340px);
+  min-width: 500px;
+  justify-content: center;
+}
+
+.statics-rows {
+  width: 340px;
+}
+
+.one-static {
+  font-size: 20px;
+  border-bottom: 1px dashed #ddd;
+}
+
+.one-static-info,
+.one-static-info > div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.one-static-info > div:first-of-type {
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+.one-static-details {
+  padding: 10px;
+}
+
+.one-static-details table td {
+  text-align: justify !important;
+  padding: 0 5px;
+}
+
+.static-row {
+  display: flex;
+  flex-direction: column;
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 90%;
+  box-shadow: 1px 1px 3px grey;
+  margin: 20px auto;
+}
+
+.static-row-label {
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+.static-row-content {
+  background-color: #f6f6f6;
+  color: #343a40;
+  padding: 5px 10px;
+}
+
+.static-row-content a {
+  color: #343a40;
+  display: block;
+  text-align: justify;
+}
+
+td.no-pd {
+  padding: 0px !important;
+}
+
+.user-type {
+  direction: ltr;
+  cursor: pointer;
+  background-color: #bdbdbd38;
+  color: #000;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  padding-right: 10px;
+  border-radius: 5px;
+  min-width: 100px;
+}
+
+.user-type:hover {
+  background-color: #fff;
+}
+
+.user-type i {
+  color: #3f51b5;
+  margin: 0 5px;
+}
+
+#choose-account-type {
+  font-family: "Tajawal" !important;
+  font-size: 16px !important;
+  margin: 20px auto;
+}
+
+.service_box {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.service_box .form-group {
+  border-bottom: 1px dashed #DDD;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.service_box .form-group:nth-last-of-type(2) {
+  border-bottom: none;
+}
+
+[dir=rtl] .service_box .form-group small,
+[dir=rtl] .service_box .form-group label {
+  text-align: right !important;
+  display: block;
+}
+
+#service_sub_cat {
+  display: none;
+}
+
+.service_sub_cat_opt {
+  display: none;
+}
+
+.active-sub-cat-opt {
+  display: block;
+}
+
+.to_services_link {
+  margin: 0px 5px;
+  cursor: pointer;
+  display: inline-block;
+  padding-top: 4px;
+  border: 1px solid #80808030;
+  padding: 8px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+

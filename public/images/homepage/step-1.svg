@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="413.5px"
+	 height="413.5px" viewBox="0 0 413.5 413.5" style="enable-background:new 0 0 413.5 413.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#97C371;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:#97C371;}
+
+
+	.st0{
+	
+		stroke-dasharray : 2000;
+		stroke-dashoffset: 0;
+		-webkit-animation: dash 4s linear alternate infinite;
+		-moz-animation: dash 4s linear alternate infinite;
+		-o-animation: dash 4s linear alternate infinite;
+		animation: dash 4s linear alternate infinite;
+	
+	}
+	
+	@-webkit-keyframes dash{
+		from {
+			stroke-dashoffset : 2000;
+		} to {
+			stroke-dashoffset : 0;
+		}
+	}
+
+
+</style>
+<g id="Layer_2">
+	<path class="st0" d="M133.8,116.9c0,0-22.3-106.2,71-106.2c99.4,0,76,106.2,76,106.2s9.3-1.2,11.6,5.9c1.6,4.7-0.2,21.7-4.2,31.7
+		c-1.8,4.5-2.8,6-4.1,8.1c-4.2,6.4-12.1,0.9-12.5,2.4c-9.5,33.2-28.3,71.5-64.2,71.5c-36.1,0-54.9-38.7-64.4-72.1
+		c0,0-11.9,6.7-16.4-10.1c-2.6-9.6-5.3-24.9-4.2-31.6C123.5,115.8,133.8,116.9,133.8,116.9z"/>
+</g>
+<g id="Layer_3">
+	<path class="st0" d="M24.3,364.8c71,58.1,315.1,53.1,366.5,0c0-25.8-2.4-56.8-25.3-66.5c-48.2-20.3-82.4-22.5-103.4-37
+		c-12-8.3-15.3-11.8-18.8-40.1c-23.4,20.3-47.2,19.5-71.5,0c0,0,6.5,23.8-15.9,39.9c-15.6,11.2-98.9,31.7-106.5,36.5
+		C20.7,315.6,25.9,364.6,24.3,364.8z"/>
+</g>
+<g id="Layer_4">
+	<path class="st1" d="M176.9,26.2c4.9-2.1,6.1,1.8,3.1,3.2c-8.9,4-17.9,9.9-24.4,20.8c-2.1,2.8-5.6,0-3.4-3.6
+		C159.4,36.4,167.7,29.8,176.9,26.2z"/>
+</g>
+</svg>

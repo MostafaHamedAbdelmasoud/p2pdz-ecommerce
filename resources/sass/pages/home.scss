@@ -1,0 +1,933 @@
+
+
+
+
+#wide-nav-logo{
+  visibility: hidden;
+}
+
+#wide-nav-home .active-wide-nav-tab{
+  width: 100%;
+}
+
+// section
+.section-header{
+  display: flex;
+  border-bottom: 1px solid #DDD;
+}
+.section-header > div{
+  width: 50%;
+  display: flex;
+}
+.section-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.section-info h3{
+  color: #6BAA34;
+  text-align: justify;
+  font-weight: 500;
+  font-size: 35px;
+}
+.section-info p{
+  font-size: 20px;
+}
+
+.section-image{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-image img{
+  height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+// currencies offers
+#currencies_offers, #credit_offers{
+  padding: 80px 0;
+  flex: 1;
+}
+.currencies_offers-content{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+#currencies-slider, #credit-slider{
+  background-color: #383838; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#currencies-statics, #credit-statics{
+  background-color: #383838;
+  margin-bottom: 70px;
+  padding: 0px;
+}
+
+#currencies-statics > div > div, #credit-statics > div > div{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+#currencies-statics > div > div .wide-slider, #credit-statics > div > div .wide-slider{
+  width: 100%;
+}
+
+.currencies-slider-card{
+  background-color: #212121b3;
+  border-radius: 15px;
+  padding: 15px 0 25px 0;
+}
+
+
+.wide-slider-frame{
+  overflow: hidden;
+  justify-content: flex-start !important;
+}
+
+// wide slider
+.wide-slider-section-label{
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  font-size: 50px;
+  width: 100%;
+  margin-bottom: 50px;
+  color: #8bc34a;
+}
+
+.wide-slider-section-label img{
+  height: 200px;
+}
+.wide-slider-section-label span{
+  border-bottom: 1px solid rgba(221, 221, 221, 0.183);
+  display: flex;
+}
+
+.wide-slider{
+  display: flex;
+  width: 100%;
+  direction: ltr;
+  box-sizing: border-box;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+#currencies-slider .wide-slider, #credit-slider .wide-slider{
+  padding: 50px 0;
+}
+#currencies-slider .y-col-w, #credit-slider .y-col-w{
+  background-color: #00000078;
+}
+
+
+.wide-slider-arr{
+  width: 100px;
+  font-size: 80px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #282828;
+}
+
+
+
+
+
+.wide-slider-arr > div{
+  width: 40px;
+  height: 100px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #97C371;
+}
+
+#currencies-statics .wide-slider-arr > div,  #credit-slider .wide-slider-arr > div{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #324026;
+  color: #040607;
+}
+
+
+
+.wide-slider-arr > div span{
+  line-height: 50px;
+}
+.wide-slider-arr i{
+  font-size: 24px;
+}
+.wide-slider-arr:hover{
+  color: #282828;
+}
+
+.wide-slider-frame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc( 100% - 200px );
+  position: relative;
+  
+}
+
+.wide-slider-content{
+  display: flex;
+  flex-wrap: nowrap;
+  transform: translate3d(0px, 0px, 0px);
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+#packs-slider .wide-slider-card{
+  box-sizing: border-box;
+  padding: 10px;
+  /* height: 500px; */
+}
+
+.wide-slider-card > div{
+  flex: 1;
+}
+
+
+
+.slider-card-image{
+  width: 100%;
+  padding-top: 80%; /* 1:1 Aspect Ratio */
+  position: relative; /* If you want text inside of it */
+  display: flex;
+}
+
+.slider-card-image img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  margin: auto;
+}
+
+.slider-card-text, .slider-card-label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+
+.slider-card-label{
+  font-size: 30px;
+  color: #8bc34a;
+}
+
+.slider-card-text{
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* packages-section */
+#packages-section{
+  margin-top: 200px;
+}
+#packages-section .section-image img{
+  height: 150px;
+}
+
+#packs_slider{
+  min-height: 100vh;
+  color: green;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  display: flex;
+ /*  background-image: url("images/packes-section-bg.svg"); */ /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+#packs-slider > div{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0000005e;
+}
+
+
+.pack-card{
+  overflow: hidden;
+  background-color: #383838ef;
+  background: linear-gradient(0deg, rgb(16, 16, 16) 1%, rgba(56, 56, 56, 0.86) 89%);
+  border-radius: 10px;
+  box-shadow: 0px 0px 11px black;
+  transition: all 0.3s ease;
+}
+
+.slick-track{
+  display: flex !important;
+}
+.slick-list.draggable, .slick-list.draggable > div, .slick-track{
+  width: 100%;
+}
+#packs-slider .slick-center .pack-card{
+  box-shadow: 0px 0px 15px #97c371;
+  border-radius: 10px;
+  transform: scale(1.1);
+  transition-delay: 0.5s;
+}
+#packs-slider .slick-center .pack-card .pack-card-details{
+  color: #97C371;
+}
+
+
+.pack-card-label{
+  display: flex;
+  background-color: #97C371;
+  justify-content: center;
+  align-items: center;
+}
+
+.pack-card-label h3{
+  margin: 0;
+  padding: 5px;
+  color: #000;
+}
+
+.pack-card-price{
+  border-radius: 50%;
+  background-color: #97C371;
+  width: 150px;
+  height: 150px;
+  margin: 15px auto 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #000;
+}
+.pack-card-price h3{
+  font-size: 55px;
+  height: 50px;
+  display: flex;
+  margin: 0 0 5px;
+}
+.pack-card-price h3 span{
+  font-size: 35px;
+}
+
+.pack-card-price p{
+  margin: 0;
+  font-size: 20px;
+}
+
+
+.pack-detail{
+  display: flex;
+  border-bottom: 1px solid rgba(251, 251, 251, 0.135);
+  width: 80%;
+  margin: auto;
+  direction: rtl;
+}
+
+.pack-detail > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+.pack-detail:last-of-type{
+  border-bottom: none;
+}
+
+.pack-detail-icon{
+  width: 30px;
+  border-left: 1px solid rgba(251, 251, 251, 0.135);
+}
+
+.pack-detail-text{
+  flex: 1;
+}
+
+
+
+
+
+
+
+.pack-card-subscribe{
+  text-align: center;
+}
+.pack-card-subscribe a{
+  display: inline-block;
+  padding: 7px 20px;
+  background-color: #97C371;
+  margin: 20px auto;
+  color: black;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* about site */
+#about-site{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about-site > div{
+  flex: 1;
+  padding : 50px 20px;
+  position: relative;
+}
+
+#about-site-text{
+  text-align:  right;
+}
+
+#about-site-text h3{
+  color: #6BAA34;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+#about-site-text p{
+  font-size: 30px;
+  line-height: 46px;
+  text-align: justify;
+  color: grey;
+}
+
+
+#about-site-icon img:nth-of-type(1){
+  position: relative;
+  z-index: 2;
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+#about-site-icon img:nth-of-type(2){
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 10px;
+  margin: auto;
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 10s linear infinite;
+  animation:spin 10s linear infinite;
+  width: 90%;
+}
+
+
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* steps section */
+#steps-section{
+  min-height: 200px;
+  background-color: #383838;
+  /* background-attachment: fixed;
+  will-change: contents; */
+}
+#steps-section > div{
+  background-color: #00000087;
+}
+
+#steps-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.one-step{
+  width: 23%;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  background-color: #38383859;
+  border-radius: 10px;
+  box-shadow: 0px 0px 11px black;
+  background-color: #383838ef;
+  background: linear-gradient(0deg, #101010f2 1%, rgba(56, 56, 56, 0.26) 89%);
+  border-radius: 10px;
+  box-shadow: 0px 0px 11px #131313;
+}
+
+
+.one-step-icon img{
+  height: 150px;
+  width: 150px;
+}
+
+.one-step-label{
+  color: #97C371;
+  font-size: 22px;
+  width: 100%;
+  margin: 30px auto 10px;
+  border-bottom: 1px solid rgba(130, 130, 130, 0.17);
+  padding-bottom: 10px;
+}
+
+
+.one-step-text{
+  color: #d8d8d8;
+  font-size: 17px;
+  line-height: 34px;
+  text-align: justify;
+  text-align-last: center;
+  padding: 0 20px;
+}
+
+
+
+
+
+.currencies_offers-footer{
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+.currencies_offers-footer a{
+  display: inline-block;
+  padding: 5px 20px;
+  box-shadow: 0 0 12px grey;
+  background-color: #69a22c00;
+  color: #6baa34;
+  border-radius: 30px;
+  font-size: 25px;
+  border: 4px solid #DDD;
+  text-decoration: none;
+}
+
+.currencies_offers-footer a:hover{
+  color: #383838;
+  box-shadow: 0 0 5px green;
+  text-decoration: none !important;
+}
+
+.currencies_offers-footer a i{
+  font-size: 16px;
+  position: relative;
+  right: 3px;
+}
+
+
+/* reviews section */
+#reviews-section{
+  background-color: #EFEFEF;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#reviews-content{
+  max-width: 600px;
+  width: calc( 100% - 10px );
+  margin: auto;
+  text-align: center;
+}
+
+#reviews-content h3{
+  text-align: center;
+  color: rgb(114, 158, 76);;
+  border-bottom: 1px solid #d2d2d2;
+  font-size: 40px;
+  padding-bottom: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+#reviews-slider{
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+#reviews-slider .slider-arr{
+  width: 60px;
+  height: 150px;
+  line-height: 150px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  font-size: 40px;
+  color: #b9b9b9;
+  cursor: pointer;
+}
+#reviews-slider .slider-arr:hover{
+  color: #9b9b9b;
+}
+
+#reviews-slider .slider-arr-previous{
+  left: 0;
+}
+
+#reviews-slider .slider-content{
+  width: 100%;
+}
+
+.review-user-image{
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.review-user-image img{
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+
+
+
+.review-user-text{
+  display: flex;
+  margin-top: 20px;
+}
+
+
+.review-quotes{
+  width: 60px;
+  font-size: 40px;
+  color: #7d7d7d;
+}
+.user-review{
+  width: calc( 100% - 60px );
+  font-size: 22px;
+  text-align: justify;
+  text-align-last: center;
+  padding: 0px 15px;
+  direction: rtl;
+  line-height: 40px;
+  color: rgb(63, 63, 63);
+}
+
+
+
+
+
+// responsive code
+@media  screen and ( max-width: 900px ){
+
+
+  #sect-intro-content{
+    flex-wrap: wrap;
+  }
+
+  #sect-intro-content > div{
+    width: 100% !important;
+  }
+  
+  .sec-intro-text-side{
+    justify-content: center !important;
+  }
+
+  #sect-intro-content .sec-intro-text-side img{
+    width: 200px;
+  }
+  
+  .sec-intro-text-side > div{
+    text-align: center;
+  }
+
+  .sec-intro-text-side > div h1{
+    font-size: 22px;
+  }
+
+  #sect-intro-content .sec-intro-icon-side{
+    width: 200px !important;
+    margin: auto;
+  }
+
+}/* /media 900px */
+
+
+
+
+@media  screen and (max-width: 1150px){
+
+  #steps-wrapper{
+    width: calc( 100% - 100px );
+  }
+  .one-step-label{
+    font-size: 18px;
+  }
+
+  .one-step-text{
+    font-size: 14px;
+  }
+
+  #packs-slider .slick-list.draggable{
+    padding: 30px 0 !important;
+  }
+
+}/* /media 1150px */
+
+
+
+
+@media  screen and (max-width: 1050px){
+
+  #steps-wrapper{
+    width: calc( 100% - 100px );
+    flex-wrap: wrap;
+  }
+
+  .one-step{
+    width: 48%;
+    margin-bottom: 10px;
+  }
+
+  .one-step-label{
+    font-size: 22px;
+  }
+
+  .one-step-text{
+    font-size: 17px;
+  }
+
+}/* /media 1000px */
+
+
+
+
+@media  screen and (max-width: 800px){
+  
+  
+  #fixed-menu-packs{
+    display: block !important;
+  }
+  
+  #packs-slider .slick-list.draggable{
+    padding: 30px !important;
+  }
+
+  #about-site{
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 0;
+    margin: 50px auto;
+  }
+
+  #about-site > div{
+    width: 100% ;
+    padding: 30px 10px;
+  }
+
+  #about-site-icon{
+    width: 200px !important;
+  }
+
+  #about-site-text h3{
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  #about-site-text p{
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  #credit-slider > .y-col > .y-col , #currencies-slider > .y-col > .y-col {
+    width: calc( 100% - 40px );
+  }
+
+  .wide-slider-arr{
+    width: 40px;
+  }
+
+  .wide-slider-frame{
+    width: calc( 100% - 80px );
+  }
+
+}/* /media 800px */
+
+
+
+
+@media  screen and (max-width: 745px){
+ 
+  .y-col{
+    width: calc( 100% - 100px );
+  }
+
+  .section-header{
+    flex-wrap: wrap;
+  }
+
+  .section-header > div{
+    width: 100% !important;
+    justify-content: center !important;
+  }
+  
+  .section-info h3, .section-info p{
+    text-align: center !important;
+  }
+
+  .section-image{
+    justify-content: center !important;
+  }
+
+
+  
+  
+}/* /media 745px */
+
+
+@media  screen and (max-width: 700px){
+
+  .y-col{
+    width: calc( 100% - 20px );
+  }
+
+  .currencies_offers-content{
+    justify-content: center !important;
+  }
+
+}/* /media 700px */
+
+
+
+
+
+
+@media  screen and (max-width: 600px){
+
+ 
+  .currencies_offers-footer a{
+    font-size: 18px !important;
+  }
+
+
+
+  #steps-wrapper{
+    width: calc( 100% - 80px );
+    flex-wrap: wrap;
+  }
+
+  .one-step{
+    width: 98%;
+    margin-bottom: 10px;
+  }
+
+  .one-step-label{
+    font-size: 18px;
+  }
+
+  .one-step-text{
+    font-size: 14px;
+  }
+
+  #reviews-content h3{
+    font-size: 30px;
+  }
+  .user-review{
+    font-size: 16px;
+  }
+
+}/* /media 600px */
+
+
+
+
+@media  screen and (max-width: 450px){
+
+  #packs-slider .slick-list.draggable{
+    padding: 30px 10px !important;
+  }
+
+  .slick-slide{
+    margin: 10px 0 !important;
+  }
+  
+}/* /media 450px */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

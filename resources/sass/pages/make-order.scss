@@ -1,0 +1,116 @@
+
+
+#dark-logo{
+  display: block;
+}
+#light-logo{
+  display: none;
+}
+
+#wide-nav-services .active-wide-nav-tab{
+  width: 100%;
+}
+#wide-nav-packs{
+  display: none !important;
+}
+
+#wide-nav-logo img{
+  height: 150px;
+  margin-top: 50px;
+}
+
+#side-nav-container{
+  display: none;
+}
+
+#page-content{
+  margin: 200px auto;
+}
+
+#page-label{
+  text-align: justify;
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+#order-wrapper{
+  display: flex;
+  text-align: justify;
+}
+
+#service-image{
+  width: 200px;
+}
+
+#service-image img{
+  width: calc( 100% - 20px );
+  border-radius: 3px;
+  box-shadow: 0px 0px 3px grey;
+}
+
+#service-details{
+  flex: 1;
+  padding: 0 20px
+}
+
+#requirements{
+  margin: 35px auto;
+  padding: 35px 0;
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+#seller{
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #97C371;
+}
+
+#seller img{
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+[dir='rtl'] #seller img{
+  margin: 0 0 0 10px;
+}
+
+#service-lable{
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+textarea{
+  margin-bottom: 20px !important;
+}
+
+#requirements h3{
+  color: #97C371
+}
+
+#requirements > div{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#order-inputs textarea{
+  font-size: 16px;
+}
+
+#order-btns{
+  
+}
+#order-btns a{
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+#feedback > div{
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+/* [dir='rtl'] #feedback > div{
+  direction: rtl;
+} */

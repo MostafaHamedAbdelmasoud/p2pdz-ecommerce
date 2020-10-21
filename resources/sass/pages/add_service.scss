@@ -1,0 +1,121 @@
+#dark-logo{
+  display: block;
+}
+#light-logo{
+  display: none;
+}
+
+#wide-nav-services .active-wide-nav-tab{
+  width: 100%;
+}
+#wide-nav-packs{
+  display: none !important;
+}
+#page-content{
+  margin: 200px auto;
+  min-height: 500px;
+  padding: 0 10px;
+}
+
+#wide-nav-logo img{
+  height: 150px;
+  margin-top: 50px;
+}
+
+#side-nav-container{
+  display: none;
+}
+
+/* ----------------------------- */
+
+
+#login-register {
+  color: #666666;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#go-home-wrapper{
+  text-align: center;
+  margin-top: 35px;
+}
+#go-home-wrapper a{
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #97C371;
+  font-size: 16px;
+}
+
+#go-home-wrapper a span{
+  margin: 0 5px;
+}
+#page-title{
+  text-align: justify;
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 15px;
+  font-size: 25px;
+}
+#request-seller{
+  color: #666666;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+}
+#contact-admin{
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #97C371;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+#contact-admin i{
+  margin: 0 10px;
+  font-size: 25px !important;
+  color: #97C371;
+}
+
+
+/* ------------------ */
+
+
+.form-group{
+  text-align: justify;
+  margin-top: 30px;
+}
+.form-group label{
+  color: #78a94e;
+  font-size: 20px;
+}
+
+
+small, input, textarea, select{
+  font-size: 14px !important;
+}
+
+#addNewNotificationBtnContainer{
+  text-align: center !important;
+}
+
+#addNewNotificationBtnContainer button{
+  background-color: #78a94e;
+  color: #FFF;
+  font-size: 20px;
+  margin-top: 25px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+}
+.service_sub_cat_opt{
+  display: none;
+}
+
+.active-sub-cat-opt{
+  display: block;
+}

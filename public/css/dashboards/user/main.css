@@ -1,0 +1,37 @@
+.dashboard-menu-side-tabs {
+  padding-top: 1px;
+}
+
+.service_box {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.service_box .form-group {
+  border-bottom: 1px dashed #DDD;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.service_box .form-group:nth-last-of-type(2) {
+  border-bottom: none;
+}
+
+[dir=rtl] .service_box .form-group small,
+[dir=rtl] .service_box .form-group label {
+  text-align: right !important;
+  display: block;
+}
+
+#service_sub_cat {
+  display: none;
+}
+
+.service_sub_cat_opt {
+  display: none;
+}
+
+.active-sub-cat-opt {
+  display: block;
+}
+

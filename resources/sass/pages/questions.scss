@@ -1,0 +1,115 @@
+
+#sect-intro{
+  position: relative;
+  z-index: 2;
+}
+#wide-nav-logo{
+  visibility: hidden;
+}
+#side-nav-money, #side-nav-phone, #side-nav-packs, #side-nav-about{
+  display: none;
+}
+#questions-wrapper{
+  padding: 100px 0;
+}
+.sec-intro-text-side > div{
+  text-align: center !important;
+}
+
+#noQuestions{
+  text-align: center;
+  font-size: 30px;
+  color: salmon;
+  padding: 100px 0;
+}
+#noQuestions img{
+  width: 50px;
+  margin: 0 15px;
+}
+#contact-mod{
+  text-align: center;
+  border-top: 1px solid #DDD;
+  font-size: 20px;
+  margin-top: 30px;
+  padding-top: 30px;
+  color: #383838;
+  font-weight: 600;
+}
+
+.card{
+  border: 1px solid #565656 !important;
+}
+
+.card-header{
+  background-color: #383838 !important;
+  padding: 0 !important
+}
+.card-header button{
+  color: #97C371;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  padding: 15px
+}
+[dir="rtl"] .card-header button{
+  text-align: right;
+}
+
+.card-header{
+  text-align: right;
+  direction: rtl;
+}
+
+.card-header:hover button{
+  color: #FFF;
+}
+
+.card-header button i{
+  font-size: 14px;
+  position: relative;
+  margin: 0 5px;
+}
+
+[dir="rtl"] .card-body{
+  text-align: justify;
+  font-size: 18px;
+}
+
+
+
+
+// responsive code
+@media  screen and ( max-width: 900px ){
+
+
+  #sect-intro-content{
+    flex-wrap: wrap;
+  }
+
+  #sect-intro-content > div{
+    width: 100% !important;
+  }
+  
+  .sec-intro-text-side{
+    justify-content: center !important;
+  }
+
+  #sect-intro-content .sec-intro-text-side img{
+    width: 200px;
+  }
+  
+  .sec-intro-text-side > div{
+    text-align: center;
+  }
+
+  .sec-intro-text-side > div h1{
+    font-size: 22px;
+  }
+
+  #sect-intro-content .sec-intro-icon-side{
+    width: 200px !important;
+    margin: auto;
+  }
+
+}/* /media 900px */
+
